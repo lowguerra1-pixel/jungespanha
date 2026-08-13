@@ -1,0 +1,6 @@
+# Site estático (sem build). Serve a raiz do repositório.
+# / -> index.html (PV principal, 19€)
+# /back-redirect/ -> pagina downsell (50%)
+[build]
+  publish = "."
+  command = ""
